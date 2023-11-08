@@ -22,7 +22,7 @@ class HalvingForecast:
         halving_data = pd.concat(
             [
                 halving_data,
-                pd.DataFrame({'date': self.next_forecast, 'block': self.next_halving_block}, index=['block'])
+                pd.DataFrame({'date': [self.next_forecast], 'block': [self.next_halving_block]})
             ],
             ignore_index=True,
         )
