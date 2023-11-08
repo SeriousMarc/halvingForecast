@@ -46,5 +46,5 @@ for i, date in enumerate(halving_data['date']):
     )
 
 # Set layout
-fig.update_layout(title='Bitcoin Halving Forecast', xaxis_title='Date', yaxis_title='Block Height')
+fig.update_layout(title='Bitcoin Halving Forecast', xaxis_title='', yaxis_title='Block Height')
 fig.update_xaxes(showticklabels=False)
